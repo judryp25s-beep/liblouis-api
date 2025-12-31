@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: braille-api
+    name: bob-liblouis-api
     env: python
     plan: free
     buildCommand: |
