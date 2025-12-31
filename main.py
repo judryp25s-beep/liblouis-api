@@ -23,4 +23,8 @@ def brf():
         download_name="texte.brf"
     )
 
+@app.route("/")
+def main():
+    return "Hey dude"
+
 app.run(host="0.0.0.0", port=10000)
